@@ -1,5 +1,12 @@
 --- Project 8 - FEATURE DETECTION ---
 
+In this project, we propose an application of feature extraction and feature matching techniques, for the robust detection of
+multiple similar planar object in a picture, taken with different angular perspectives. In particular, we will consider the
+following problem: given an image that contains multiple instances of the same object, how it is possible to distinguish the
+objects in the cases in which they differ from one to another only because of small variations or different colors?
+Our aim is to find and retrieve all the objects that are exactly the same.
+
+
 Important! : some of the cases are quite slow and require high computational power and memory. If some errors occur with the dimension
              of some arrays, change the value of the parameter 'MAX_NUM_BOX' to 15 or less.
 
