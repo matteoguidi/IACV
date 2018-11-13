@@ -7,8 +7,7 @@ objects in the cases in which they differ from one to another only because of sm
 Our aim is to find and retrieve all the objects that are exactly the same.
 
 
-Important! : some of the cases are quite slow and require high computational power and memory. If some errors occur with the dimension
-             of some arrays, change the value of the parameter 'MAX_NUM_BOX' to 15 or less.
+Important! : some of the cases are quite slow and require high computational power and memory. If some errors occur with the dimension of some arrays, change the value of the parameter 'MAX_NUM_BOX' to 15 or less.
 
 All the templates used for the feature detection are saved in the folder 'Template';
 All the pictures used for the feature detection are saved in the folder 'Images';
@@ -34,8 +33,6 @@ InputImages : a panel allows to select the example to be run. Different cases ar
 5) Example with cereal boxes detection; the algorithm works well also with shaded boxes;
 6) Example with cereal boxes; it finds the bounding boxes in a very precise way;
 
-If a user wants to try the algorithm with additional images or templates, it is sufficient to look for them in the afore mentioned folders,
-change the names of the input images and template in one of the cases of the switch and run the whole process.
+If a user wants to try the algorithm with additional images or templates, it is sufficient to look for them in the afore mentioned folders, change the names of the input images and template in one of the cases of the switch and run the whole process.
 
-imageChooser : a switch that allows to select the the method used to calculate the distances between images; By default is selected
-               'euclidean'; Change it to 'ssim' to see that the algorithm works also with this different kind of measurements.
+imageChooser : a switch that allows to select the method used to calculate the distances between images; By default is selected 'euclidean'; Change it to 'ssim' to see that the algorithm works also with this different kind of method.
